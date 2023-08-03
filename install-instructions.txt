@@ -1,0 +1,19 @@
+vite instructions:
+cd client
+npm create create vite@latest ./
+select React
+select JavaScript or Typescript (using JS for this project)
+npm install
+npm run dev
+
+tailwind instructions: https://tailwindcss.com/docs/guides/vite
+
+backend:
+update package.json to below to allow live updates:
+"type": "module", // add this under "descriptions" to allow ES6 commands for react
+
+"scripts": {
+    "start": "nodemon index"
+  },
+
+npm i cloudinary cors dotenv express mongoose nodemon openai
